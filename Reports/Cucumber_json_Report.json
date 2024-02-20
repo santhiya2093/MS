@@ -1,0 +1,411 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 31,
+        "name": "To Test The Login Functionality",
+        "description": "",
+        "id": "to-test-the-adactin-application;to-test-the-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3730480800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "launch The Adactin Url Application",
+            "match": {
+              "location": "StepdefTest.launch_The_Adactin_Url_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1114363000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user Enters The Following Credentials In The Respective Field",
+            "match": {
+              "location": "StepdefTest.user_Enters_The_Following_Credentials_In_The_Respective_Field(DataTable)"
+            },
+            "rows": [
+              {
+                "comments": [
+                  {
+                    "line": 34,
+                    "value": "#DataTable"
+                  }
+                ],
+                "cells": [
+                  "Username",
+                  "Password"
+                ],
+                "line": 35
+              },
+              {
+                "cells": [
+                  "santhiya2093",
+                  "4TWkf"
+                ],
+                "line": 36
+              },
+              {
+                "cells": [
+                  "santhiya",
+                  "Santhiya@20"
+                ],
+                "line": 37
+              },
+              {
+                "cells": [
+                  "santghh",
+                  "hdfjhsd"
+                ],
+                "line": 38
+              },
+              {
+                "cells": [
+                  "santhiya2093",
+                  "4TW8V8"
+                ],
+                "line": 39
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 955743200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user Enters The LoginButton And Navigate To The Search Hotel Page",
+            "match": {
+              "location": "StepdefTest.user_Enters_The_LoginButton_And_Navigate_To_The_Search_Hotel_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@Login3"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "To Test The Search Hotel Page",
+        "description": "",
+        "id": "to-test-the-adactin-application;to-test-the-search-hotel-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 451844500,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user Select The Location  using Dropdown",
+            "match": {
+              "location": "StepdefTest.user_Select_The_Location_using_Dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 350350000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user Select  The Hotel using Dropdown",
+            "match": {
+              "location": "StepdefTest.user_Select_The_Hotel_using_Dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 362084500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user Select The RoomType using Dropdown",
+            "match": {
+              "location": "StepdefTest.user_Select_The_RoomType_using_Dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 434227100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user Select The Number of Rooms using Dropdown",
+            "match": {
+              "location": "StepdefTest.user_Select_The_Number_of_Rooms_using_Dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290229600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user Select The Adults Room using Dropdown",
+            "match": {
+              "location": "StepdefTest.user_Select_The_Adults_Room_using_Dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 277185800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user Select The Children Room using Dropdown",
+            "match": {
+              "location": "StepdefTest.user_Select_The_Children_Room_using_Dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 590245900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user Enters The Search Button in the respective field",
+            "match": {
+              "location": "StepdefTest.user_Enters_The_Search_Button_in_the_respective_field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@searchhotel"
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "To Test The Select Hotel Page",
+        "description": "",
+        "id": "to-test-the-adactin-application;to-test-the-select-hotel-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 174994200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user Select the RadioButton",
+            "match": {
+              "location": "StepdefTest.user_Select_the_RadioButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 628512500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user Enters the Continue Button in the respective field",
+            "match": {
+              "location": "StepdefTest.user_Enters_the_Continue_Button_in_the_respective_field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 52,
+            "name": "@selecthotel"
+          }
+        ]
+      },
+      {
+        "line": 57,
+        "name": "To Test The Book A Hotel Page",
+        "description": "",
+        "id": "to-test-the-adactin-application;to-test-the-book-a-hotel-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 266535700,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user Enters the Username in the respective field",
+            "match": {
+              "location": "StepdefTest.user_Enters_the_Username_in_the_respective_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 296355700,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user Enters the Lastname in the respective field",
+            "match": {
+              "location": "StepdefTest.user_Enters_the_Lastname_in_the_respective_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 360017400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user Enters the Billing Address in the respective field",
+            "match": {
+              "location": "StepdefTest.user_Enters_the_Billing_Address_in_the_respective_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 362572200,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user Enters the Credit Card Number in the respective field",
+            "match": {
+              "location": "StepdefTest.user_Enters_the_Credit_Card_Number_in_the_respective_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497128600,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user Select the Credit Card Type using Dropdown",
+            "match": {
+              "location": "StepdefTest.user_Select_the_Credit_Card_Type_using_Dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 428795700,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User Select the Expiry Month using Dropdown",
+            "match": {
+              "location": "StepdefTest.user_Select_the_Expiry_Month_using_Dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261669400,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user Select the Expiry Year using Dropdown",
+            "match": {
+              "location": "StepdefTest.user_Select_the_Expiry_Year_using_Dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206713200,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user Enters the CCV Number in the respective field",
+            "match": {
+              "location": "StepdefTest.user_Enters_the_CCV_Number_in_the_respective_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191573300,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user Enters the Book Now Button in the respective field",
+            "match": {
+              "location": "StepdefTest.user_Enters_the_Book_Now_Button_in_the_respective_field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 56,
+            "name": "@bookhotel"
+          }
+        ]
+      },
+      {
+        "line": 68,
+        "name": "To Test The Booking Conformation Page",
+        "description": "",
+        "id": "to-test-the-adactin-application;to-test-the-booking-conformation-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7080438700,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user Clicks On Myitinerarybutton",
+            "match": {
+              "location": "StepdefTest.user_Clicks_On_Myitinerarybutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 481663700,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user Clicks on LogoutButton",
+            "match": {
+              "location": "StepdefTest.user_Clicks_on_LogoutButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 67,
+            "name": "@conformhotel"
+          }
+        ]
+      }
+    ],
+    "name": "To Test The Adactin Application",
+    "description": "",
+    "id": "to-test-the-adactin-application",
+    "keyword": "Feature",
+    "uri": "Adactintesthotel.feature"
+  }
+]
